@@ -13,3 +13,7 @@ A browser window should open once the server spins up. If it does not, you can m
 ```
 server open
 ```
+
+### Datasource 
+
+You will need to create a datasource on your local machine called `beanCounter`. You can do this via the Lucee admin console and MSSQL Server.  You do not need any data in the database, but you should create a table called `bean` with any columns you like. 
